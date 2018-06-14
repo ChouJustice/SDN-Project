@@ -61,7 +61,7 @@
     
 可以看到 ()
 
-![snort]()
+![snort](https://github.com/ChouJustice/SDN-Project/blob/master/Images/Snort.png)
 
 ***
 安裝 Barnyard2(在此作為將警報存入MySQL的工具)  

@@ -59,7 +59,7 @@
 
     sudo /usr/local/bin/snort -A console -q -u snort -g snort -c /etc/snort/snort.conf -i {yourport}
     
-可以看到 ()
+可以看到 (以下內容警告非測試規則)
 
 ![snort](https://github.com/ChouJustice/SDN-Project/blob/master/Images/Snort.png)
 
@@ -113,7 +113,7 @@
     mysql> grant create, insert, select, delete, update on snort.* to 'snort'@'localhost';
     mysql> exit
     
-修改 barnyard2.conf
+修改 barnyard2.conf 加入以下
 
     output database: log, mysql, user=snort password=MYSQLSNORTPASSWORD dbname=snort host=localhost sensor name=sensor01
     
@@ -122,5 +122,3 @@
     sudo barnyard2 -c /etc/snort/barnyard2.conf -d /var/log/snort -f snort.u2 -w /var/log/snort/barnyard2.waldo -g snort -u snort
     
 到此Snort的設定就完成了
-
-

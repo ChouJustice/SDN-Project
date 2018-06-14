@@ -65,7 +65,7 @@
 
     sudo ovs-vsctl set-controller br0 tcp:{yourController:port}
     
-若正常連線，可看到Controller is_
+若正常連線，可看到Controller is_connected為true
 
 ![switch](https://github.com/ChouJustice/SDN-Project/blob/master/Images/switch.png)
     

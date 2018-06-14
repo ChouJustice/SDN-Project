@@ -67,6 +67,6 @@
     
 若正常連線，可看到Controller
 
-    ![switch](https://github.com/ChouJustice/SDN-Project/blob/master/Images/switch.png)
+![switch](https://github.com/ChouJustice/SDN-Project/blob/master/Images/switch.png)
     
 若連線失敗請檢查相關防火牆設定

@@ -17,3 +17,5 @@ OpenDayLight Controller, OpenvSwitch, Snort and multiple end host
   * 偵測封包通過時解析封包內容
   * 自定義偵測規則，若有異常時會產生警告Log檔案
   * 將警告Log檔案內容寫入MySQL
+  
+![topo](https://github.com/ChouJustice/SDN-Project/blob/master/Images/Struct.png)

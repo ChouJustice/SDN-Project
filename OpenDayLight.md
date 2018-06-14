@@ -20,4 +20,6 @@
     
 此時圖形化介面已經可以看到了
 
-[!topo]()
+![topo](https://github.com/ChouJustice/SDN-Project/blob/master/Images/topo.png)
+
+以及REST API也已經可以正常運作
